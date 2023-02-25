@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Post extends Model
 {
-    protected $guards = [];
+    protected $guarded = [];
 
     protected $casts = [
         'published_at' => 'datetime',
