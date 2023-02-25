@@ -8,7 +8,7 @@
                 {{ __('Back to home') }}
             </a>
         </div>
-        <div class="my-6">
+        <div class="mt-6 mb-10">
             <h1 class="mb-3 text-3xl font-extrabold leading-snug">{{ $post->title }}</h1>
             <p class="text-sm text-gray-500">
                 {!! __('Posted by :name on :date', [
@@ -17,8 +17,8 @@
                 ]) !!}
             </p>
         </div>
-        <div>
-            {{ $post->content }}
+        <div class="prose">
+            {{ \Illuminate\Mail\Markdown::parse($post->content) }}
         </div>
     </div>
 </x-app-layout>
