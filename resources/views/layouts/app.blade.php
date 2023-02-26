@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Ngo Quoc Dat's blog - writing about PHP Laravel and Tailwind CSS</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">

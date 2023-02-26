@@ -10,6 +10,4 @@ hljs.registerLanguage('bash', bash)
 hljs.registerLanguage('php', php)
 hljs.registerLanguage('javascript', javascript)
 
-document.querySelectorAll('pre code').forEach((el) => {
-    hljs.highlightBlock(el)
-})
+hljs.highlightAll()
