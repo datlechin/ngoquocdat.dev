@@ -19,7 +19,7 @@
                 ]) !!}
             </p>
         </div>
-        <div class="prose">
+        <div class="mb-10 prose">
             {{ \Illuminate\Mail\Markdown::parse($post->content) }}
         </div>
     </div>
