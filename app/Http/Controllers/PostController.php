@@ -13,6 +13,8 @@ class PostController extends Controller
             ->published()
             ->firstOrFail();
 
+        $post->increment('views');
+
         return view('posts.show', compact('post'));
     }
 }

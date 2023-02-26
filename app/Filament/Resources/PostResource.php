@@ -84,6 +84,7 @@ class PostResource extends Resource
 
                 TextColumn::make('title')
                     ->translateLabel()
+                    ->url(fn (Post $record) => route('posts.show', $record), true)
                     ->sortable()
                     ->searchable(),
 
