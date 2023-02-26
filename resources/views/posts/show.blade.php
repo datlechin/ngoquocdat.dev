@@ -9,7 +9,7 @@
             </a>
         </div>
         <div class="mt-6 mb-10">
-            <h1 class="mb-3 text-3xl font-extrabold leading-snug">{{ $post->title }}</h1>
+            <h1 class="mb-3 text-4xl font-extrabold leading-snug">{{ $post->title }}</h1>
             <p class="text-sm text-gray-500">
                 {!! __('Posted by :name on :date', [
                     'name' => "<span class='font-semibold'>{$post->author->name}</span>",
