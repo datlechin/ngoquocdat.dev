@@ -1,5 +1,6 @@
 <x-app-layout>
     <x-slot:title>{{ $post->title }}</x-slot:title>
+    <x-slot:description>{{ $post->description }}</x-slot:description>
     <div class="max-w-3xl p-5 mx-auto">
         <div class="mb-3 -ml-1">
             <a href="{{ route('home') }}" class="flex items-center text-sm group text-fuchsia-500">
