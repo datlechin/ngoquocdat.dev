@@ -24,6 +24,8 @@
         <meta property="twitter:title" content="{{ $title }}">
         <meta property="twitter:description" content="{{ $description }}">
 
+        <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/56961917?v=4" type="image/x-icon">
+
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
