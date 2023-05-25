@@ -1,14 +1,14 @@
+import typography from '@tailwindcss/typography'
+
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    './resources/**/*.blade.php',
-    './resources/**/*.js',
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [
-    require('@tailwindcss/line-clamp'),
-    require('@tailwindcss/typography'),
-  ],
+export default {
+    content: [
+        './resources/**/*.blade.php',
+    ],
+    theme: {
+        extend: {},
+    },
+    plugins: [
+        typography,
+    ],
 }
