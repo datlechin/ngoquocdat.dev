@@ -1,4 +1,4 @@
-@import "highlight.js/scss/github-dark";
+@import "highlight.js/styles/github-dark.css";
 
 @tailwind base;
 @tailwind components;
@@ -8,10 +8,6 @@ body {
     font-family: 'JetBrains Mono', monospace;
 }
 
-pre {
-    code {
-        &.hljs {
-            @apply p-0;
-        }
-    }
+pre code.hljs {
+    @apply p-0;
 }
