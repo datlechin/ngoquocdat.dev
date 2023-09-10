@@ -12,7 +12,7 @@ class Post extends Model
 
     protected $casts = [
         'published_at' => 'datetime',
-        'views' => 'integer',
+        'views' => 'int',
     ];
 
     public function scopePublished(Builder $query): void
