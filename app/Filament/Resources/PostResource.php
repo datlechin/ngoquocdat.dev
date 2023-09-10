@@ -4,17 +4,17 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\PostResource\Pages;
 use App\Models\Post;
-use Closure;
-use Filament\Forms\Components\Card;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\MarkdownEditor;
+use Filament\Forms\Components\Section;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
-use Filament\Resources\Form;
+use Filament\Forms\Form;
+use Filament\Forms\Set;
 use Filament\Resources\Resource;
-use Filament\Resources\Table;
+use Filament\Tables\Table;
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\Support\Facades\Auth;
@@ -30,43 +30,38 @@ class PostResource extends Resource
     {
         return $form
             ->schema([
-                Card::make()
+                Section::make()
                     ->schema([
                         TextInput::make('title')
-                            ->translateLabel()
                             ->required()
                             ->autofocus()
-                            ->reactive()
-                            ->afterStateUpdated(function (Closure $set, $state) {
-                                $set('slug', Str::slug($state));
-                            }),
+                            ->live(onBlur: true)
+                            ->afterStateUpdated(fn (Set $set, ?string $state) =>  $set('slug', Str::slug($state))),
 
                         TextInput::make('slug')
                             ->unique(ignoreRecord: true)
                             ->required(),
 
                         Textarea::make('description')
-                            ->translateLabel()
                             ->required()
                             ->rows(2)
                             ->columnSpanFull(),
 
                         MarkdownEditor::make('content')
-                            ->translateLabel()
                             ->required()
                             ->columnSpanFull(),
 
                         Select::make('user_id')
                             ->relationship('author', 'name')
                             ->searchable()
-                            ->default(fn (string|null $state) => $state ?? Auth::id())
+                            ->default(fn (?string $state) => $state ?? Auth::id())
                             ->preload(),
 
                         DateTimePicker::make('published_at')
-                            ->translateLabel(),
+                            ->label(__('Published date'))
+                            ->date(),
 
                         FileUpload::make('image')
-                            ->translateLabel()
                             ->image()
                             ->columnSpanFull(),
                     ])
@@ -79,21 +74,17 @@ class PostResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('author.name')
-                    ->translateLabel()
                     ->searchable(),
 
                 TextColumn::make('title')
-                    ->translateLabel()
                     ->url(fn (Post $record) => route('posts.show', $record), true)
                     ->sortable()
                     ->searchable(),
 
                 TextColumn::make('views')
-                    ->translateLabel()
                     ->sortable(),
 
                 TextColumn::make('created_at')
-                    ->translateLabel()
                     ->sortable()
                     ->dateTime(),
             ])
