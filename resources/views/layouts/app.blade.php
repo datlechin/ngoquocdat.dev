@@ -30,9 +30,12 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
+        @livewireStyles
         @vite(['resources/js/app.js', 'resources/css/app.css'])
     </head>
     <body class="antialiased">
         {{ $slot }}
+
+        @livewireScripts
     </body>
 </html>

@@ -3,7 +3,7 @@
     <x-slot:description>{{ $post->description }}</x-slot:description>
     <div class="max-w-3xl p-5 mx-auto">
         <div class="mb-3 -ml-1">
-            <a href="{{ route('home') }}" class="flex items-center text-sm group text-fuchsia-500">
+            <a wire:navigate href="{{ route('home') }}" class="flex items-center text-sm group text-fuchsia-500">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 transition-transform group-hover:-translate-x-1">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
                 </svg>
