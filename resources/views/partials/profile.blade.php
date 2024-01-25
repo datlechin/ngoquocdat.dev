@@ -8,7 +8,7 @@
         </h1>
         <p class="dark:text-gray-200">I'm a web developer from Vietnam, working on Laravel, VueJS, and TailwindCSS. I love to working on open source projects and contribute to the community.</p>
         <div class="flex items-center mt-5">
-            <span class="mr-4 text-gray-600 dark:text-gray-400">Find me on:</span>
+            <span class="text-sm text-gray-600 me-4 dark:text-gray-400">Find me on:</span>
             <ul class="flex space-x-4">
                 <li>
                     <a href="https://github.com/datlechin" target="_blank" class="text-black transition-all dark:text-white hover:text-fuchsia-500 group" title="GitHub">
