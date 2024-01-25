@@ -9,3 +9,5 @@ hljs.registerLanguage('php', php)
 hljs.registerLanguage('javascript', javascript)
 
 hljs.highlightAll()
+
+import.meta.glob(['../images/**'])

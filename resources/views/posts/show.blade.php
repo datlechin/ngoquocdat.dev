@@ -12,14 +12,14 @@
         </div>
         <div class="mt-6 mb-10">
             <h1 class="mb-3 text-4xl font-extrabold leading-snug">{{ $post->title }}</h1>
-            <p class="text-sm text-gray-500">
+            <p class="text-sm text-gray-600 dark:text-gray-400">
                 {!! __('Posted by :name on :date', [
                     'name' => "<span class='font-semibold'>{$post->author->name}</span>",
                     'date' => "<span class='font-semibold'>{$post->created_at->translatedFormat('d M Y')}</span>",
                 ]) !!}
             </p>
         </div>
-        <div class="mb-10 prose">
+        <div class="mb-10 prose dark:prose-invert">
             {{ \Illuminate\Mail\Markdown::parse($post->content) }}
         </div>
     </div>

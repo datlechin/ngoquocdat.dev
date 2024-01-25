@@ -33,7 +33,7 @@
         @livewireStyles
         @vite(['resources/js/app.js', 'resources/css/app.css'])
     </head>
-    <body class="antialiased">
+    <body class="antialiased text-gray-900 bg-gray-50 dark:text-gray-100 dark:bg-gray-950">
         {{ $slot }}
 
         @livewireScripts

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\PostResource\Pages;
@@ -14,9 +16,9 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Forms\Set;
 use Filament\Resources\Resource;
-use Filament\Tables\Table;
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Table;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 
@@ -36,7 +38,7 @@ class PostResource extends Resource
                             ->required()
                             ->autofocus()
                             ->live(onBlur: true)
-                            ->afterStateUpdated(fn (Set $set, ?string $state) =>  $set('slug', Str::slug($state))),
+                            ->afterStateUpdated(fn(Set $set, ?string $state) =>  $set('slug', Str::slug($state))),
 
                         TextInput::make('slug')
                             ->unique(ignoreRecord: true)
@@ -54,7 +56,7 @@ class PostResource extends Resource
                         Select::make('user_id')
                             ->relationship('author', 'name')
                             ->searchable()
-                            ->default(fn (?string $state) => $state ?? Auth::id())
+                            ->default(fn(?string $state) => $state ?? Auth::id())
                             ->preload(),
 
                         DateTimePicker::make('published_at')
@@ -77,7 +79,7 @@ class PostResource extends Resource
                     ->searchable(),
 
                 TextColumn::make('title')
-                    ->url(fn (Post $record) => route('posts.show', $record), true)
+                    ->url(fn(Post $record) => route('posts.show', $record), true)
                     ->sortable()
                     ->searchable(),
 
