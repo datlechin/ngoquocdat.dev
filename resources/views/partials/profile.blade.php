@@ -1,9 +1,9 @@
 <div class="flex flex-wrap pb-8 mb-8 border-b md:flex-nowrap">
     <div class="mb-8 md:basis-3/5">
-        <img src="{{ Vite::asset('resources/images/avatar.jpg') }}" alt="Ngo Quoc Dat" class="w-24 h-24 transition-all rounded-full ring-2 ring-fuchsia-500 md:w-32 md:h-32 hover:scale-105 hover:translate-y-1 hover:translate-x-1">
+        <img src="{{ Vite::asset('resources/images/avatar.jpg') }}" alt="Ngo Quoc Dat" class="w-24 h-24 transition-all rounded-full md:ring-2 md:ring-fuchsia-500 md:w-32 md:h-32 hover:scale-105 hover:translate-y-1 hover:translate-x-1">
     </div>
     <div>
-        <h1 class="mb-3 text-2xl font-extrabold text-transparent transition-all from-pink-500 to-fuchsia-500 bg-gradient-to-r bg-clip-text md:text-3xl hover:translate-x-2 group">
+        <h1 class="mb-3 text-2xl font-extrabold transition-all md:text-transparent md:from-pink-500 md:to-fuchsia-500 md:bg-gradient-to-r md:bg-clip-text md:text-3xl hover:translate-x-2 group">
             Hi, I'm Ngo Quoc Dat
         </h1>
         <p class="dark:text-gray-200">I'm a web developer from Vietnam, working on Laravel, VueJS, and TailwindCSS. I love to working on open source projects and contribute to the community.</p>
