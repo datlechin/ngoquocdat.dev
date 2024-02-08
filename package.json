@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.9",
     "vue": "^3.4.15"
   },
   "devDependencies": {
