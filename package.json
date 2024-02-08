@@ -8,11 +8,10 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "@vercel/speed-insights": "^1.0.9",
-    "vue": "^3.4.15"
-  },
   "devDependencies": {
+    "@vercel/speed-insights": "^1.0.9",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5",
     "@vitejs/plugin-vue": "^5.0.3",
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.35",
