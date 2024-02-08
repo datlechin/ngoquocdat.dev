@@ -26,7 +26,7 @@ import SocialList from './components/SocialList.vue'
             <span class="font-bold">I'm</span>
           </div>
           <h2
-            class="group-hover:translate-x-1 transition-all text-5xl sm:text-7xl font-black"
+            class="group-hover:translate-x-1 transition-all text-4xl sm:text-7xl font-black"
           >
             Ngo Quoc Dat
           </h2>
