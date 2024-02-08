@@ -18,7 +18,7 @@ import SocialList from './components/SocialList.vue'
           alt="Ngo Quoc Dat"
           class="size-32 sm:size-40 rounded-full"
         />
-        <div class="w-full group">
+        <div class="group">
           <div
             class="group-hover:-translate-x-1 transition-all text-xl sm:text-2xl mb-2"
           >
