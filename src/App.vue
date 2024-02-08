@@ -18,7 +18,7 @@ import SocialList from './components/SocialList.vue'
           alt="Ngo Quoc Dat"
           class="size-32 sm:size-40 rounded-full"
         />
-        <div class="group">
+        <div class="w-full group">
           <div
             class="group-hover:-translate-x-1 transition-all text-xl sm:text-2xl mb-2"
           >
@@ -26,7 +26,7 @@ import SocialList from './components/SocialList.vue'
             <span class="font-bold">I'm</span>
           </div>
           <h2
-            class="group-hover:translate-x-1 transition-all text-4xl sm:text-7xl font-black"
+            class="group-hover:translate-x-1 transition-all text-[2.75rem] sm:text-7xl font-black"
           >
             Ngo Quoc Dat
           </h2>
