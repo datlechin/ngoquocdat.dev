@@ -10,7 +10,7 @@
         "autoprefixer": "^10.4.17",
         "highlight.js": "^11.9.0",
         "laravel-vite-plugin": "^1.0.1",
-        "postcss": "^8.4.33",
+        "postcss": "^8.4.35",
         "prettier": "^3.2.4",
         "prettier-plugin-tailwindcss": "^0.5.11",
         "tailwindcss": "^3.4.1",
