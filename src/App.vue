@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SpeedInsights } from '@vercel/speed-insights/next'
+import { SpeedInsights } from '@vercel/speed-insights/vue'
 import SocialList from './components/SocialList.vue'
 </script>
 
