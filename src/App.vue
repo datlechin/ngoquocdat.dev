@@ -9,7 +9,7 @@ import SocialList from './components/SocialList.vue'
   <main
     class="bg-[radial-gradient(ellipse_80%_60%_at_50%_-15%,rgba(120,119,198,0.3),rgba(255,255,255,0))] min-h-dvh bg-slate-900 text-gray-50"
   >
-    <div class="max-w-screen-lg mx-auto px-6 py-16 flex justify-center flex-col">
+    <div class="max-w-screen-lg min-h-screen mx-auto px-6 py-16 flex justify-center flex-col">
       <div
         class="flex justify-center flex-wrap items-center gap-10 sm:gap-20 mb-20"
       >
