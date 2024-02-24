@@ -1,18 +1,21 @@
 <script setup lang="ts">
-defineProps<{
+export type SocialLink = {
   title: string
   href: string
-}>()
+  icon: any
+}
+
+defineProps<SocialLink>()
 </script>
 
 <template>
   <a
     :href="href"
     target="_blank"
-    class="flex items-center gap-3 text-gray-300 hover:text-gray-50 transition-all"
+    class="flex items-center gap-3 text-gray-300 transition-all hover:text-gray-50"
     :aria-label="title"
   >
-    <slot />
+    <component :is="icon" class="size-6" />
     <span class="hidden sm:block">{{ title }}</span>
   </a>
 </template>
