@@ -16,7 +16,7 @@ import SocialList from './components/SocialList.vue'
         class="flex justify-center flex-wrap items-center gap-10 sm:gap-20 mb-20"
       >
         <img
-          src="/ngoquocdat.jpg"
+          src="/ngoquocdat.webp"
           alt="Ngo Quoc Dat"
           class="size-32 sm:size-40 rounded-full"
         />
