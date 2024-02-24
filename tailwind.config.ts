@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Be Vietnam Pro"', ...defaultTheme.fontFamily.sans],
+        sans: ['Be Vietnam Pro', ...defaultTheme.fontFamily.sans],
       },
     },
   },
