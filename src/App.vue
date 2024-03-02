@@ -13,7 +13,7 @@ import SocialList from './components/SocialList.vue'
       class="mx-auto flex min-h-screen max-w-screen-lg flex-col justify-center px-6 py-16"
     >
       <div
-        class="mb-20 flex flex-wrap items-center justify-center gap-10 sm:gap-20"
+        class="mb-14 sm:mb-20 flex flex-wrap items-center justify-center gap-10 sm:gap-20"
       >
         <img
           src="/ngoquocdat.webp"
@@ -43,7 +43,9 @@ import SocialList from './components/SocialList.vue'
           </span>
         </h2>
 
-        <div class="text-lg font-light leading-loose text-gray-300">
+        <div
+          class="text-base lg:text-lg font-light leading-loose text-gray-300"
+        >
           <p>I craft web apps using Laravel, Vue, Tailwind CSS, and beyond.</p>
           <p>
             Driven by a passion for building engaging experiences and
