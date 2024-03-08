@@ -12,7 +12,7 @@ defineProps<SocialLink>()
   <a
     :href="href"
     target="_blank"
-    class="flex items-center gap-3 text-gray-300 transition-all hover:text-gray-50 hover:scale-105"
+    class="flex items-center gap-3 text-gray-300 transition-all hover:scale-105 hover:text-gray-50"
     :aria-label="title"
   >
     <component :is="icon" class="size-6" />

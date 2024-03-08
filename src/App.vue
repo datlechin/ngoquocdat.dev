@@ -10,10 +10,10 @@ import SocialList from './components/SocialList.vue'
     class="min-h-dvh bg-slate-900 bg-[radial-gradient(ellipse_80%_60%_at_50%_-15%,rgba(120,119,198,0.3),rgba(255,255,255,0))] text-gray-50"
   >
     <div
-      class="mx-auto flex min-h-screen max-w-screen-lg flex-col justify-center px-6 py-16"
+      class="max-w-screen-lg mx-auto flex min-h-screen flex-col justify-center py-16 px-6"
     >
       <div
-        class="mb-14 sm:mb-20 flex flex-wrap items-center justify-center gap-10 sm:gap-20"
+        class="mb-14 flex flex-wrap items-center justify-center gap-10 sm:mb-20 sm:gap-20"
       >
         <img
           src="/ngoquocdat.webp"
@@ -44,7 +44,7 @@ import SocialList from './components/SocialList.vue'
         </h2>
 
         <div
-          class="text-base lg:text-lg font-light leading-loose text-gray-300"
+          class="text-base font-light leading-loose text-gray-300 lg:text-lg"
         >
           <p>I craft web apps using Laravel, Vue, Tailwind CSS, and beyond.</p>
           <p>
