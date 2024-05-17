@@ -21,7 +21,7 @@ const isInternalUrl = computed(() => {
     :href="!isInternalUrl ? href : null"
     :to="isInternalUrl ? href : null"
     :target="!isInternalUrl && '_blank'"
-    class="cursor-pointer flex items-center gap-3 text-gray-300 transition-all hover:scale-105 hover:text-gray-50"
+    class="flex cursor-pointer items-center gap-3 text-gray-300 transition-all hover:scale-105 hover:text-gray-50"
     :aria-label="title"
   >
     <component :is="icon" class="size-6" />

@@ -31,14 +31,17 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
             <li>
               <a
                 href="mailto:datlechin@gmail.com"
-                class="inline-flex items-center gap-2 hover:underline transition-all"
+                class="inline-flex items-center gap-2 transition-all hover:underline"
               >
                 <AtSymbolIcon class="size-6" />
                 datlechin@gmail.com
               </a>
             </li>
             <li>
-              <a href="tel:0372124043" class="inline-flex items-center gap-2 hover:underline transition-all">
+              <a
+                href="tel:0372124043"
+                class="inline-flex items-center gap-2 transition-all hover:underline"
+              >
                 <PhoneIcon class="size-6" />
                 0372124043
               </a>
@@ -47,7 +50,7 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
               <a
                 href="https://ngoquocdat.dev"
                 target="_blank"
-                class="inline-flex items-center gap-2 hover:underline transition-all"
+                class="inline-flex items-center gap-2 transition-all hover:underline"
               >
                 <GlobeAltIcon class="size-6" />
                 ngoquocdat.dev
@@ -57,13 +60,16 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
               <a
                 href="https://github.com/datlechin"
                 target="_blank"
-                class="inline-flex items-center gap-2 hover:underline transition-all"
+                class="inline-flex items-center gap-2 transition-all hover:underline"
               >
                 <GitHubIcon class="size-6" />
                 datlechin
               </a>
             </li>
-            <li class="inline-flex items-center gap-2" title="338 Nguyễn Văn Quá Đông Hưng Thuận, Quận 12, Thành phố Hồ Chí Minh, Việt Nam">
+            <li
+              class="inline-flex items-center gap-2"
+              title="338 Nguyễn Văn Quá Đông Hưng Thuận, Quận 12, Thành phố Hồ Chí Minh, Việt Nam"
+            >
               <MapPinIcon class="size-6" />
               12 District, Ho Chi Minh City
             </li>
