@@ -26,38 +26,28 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
     </div>
     <div class="grid grid-cols-2 gap-12">
       <div class="col-span-1">
-        <div class="mb-6 rounded bg-gray-100 p-3">
+        <div class="mb-6 rounded bg-gray-100 p-3 print:p-0">
           <ul class="space-y-2">
             <li>
               <a
                 href="mailto:datlechin@gmail.com"
-                class="inline-flex items-center gap-2"
+                class="inline-flex items-center gap-2 hover:underline transition-all"
               >
                 <AtSymbolIcon class="size-6" />
                 datlechin@gmail.com
               </a>
             </li>
             <li>
-              <a href="tel:0372124043" class="inline-flex items-center gap-2">
+              <a href="tel:0372124043" class="inline-flex items-center gap-2 hover:underline transition-all">
                 <PhoneIcon class="size-6" />
                 0372124043
               </a>
             </li>
             <li>
               <a
-                href="https://maps.app.goo.gl/Cdd8tLMXcNEM8enE6"
-                target="_blank"
-                class="inline-flex items-center gap-2"
-              >
-                <MapPinIcon class="size-6" />
-                12 District, Ho Chi Minh City
-              </a>
-            </li>
-            <li>
-              <a
                 href="https://ngoquocdat.dev"
                 target="_blank"
-                class="inline-flex items-center gap-2"
+                class="inline-flex items-center gap-2 hover:underline transition-all"
               >
                 <GlobeAltIcon class="size-6" />
                 ngoquocdat.dev
@@ -67,11 +57,15 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
               <a
                 href="https://github.com/datlechin"
                 target="_blank"
-                class="inline-flex items-center gap-2"
+                class="inline-flex items-center gap-2 hover:underline transition-all"
               >
                 <GitHubIcon class="size-6" />
                 datlechin
               </a>
+            </li>
+            <li class="inline-flex items-center gap-2" title="338 Nguyễn Văn Quá Đông Hưng Thuận, Quận 12, Thành phố Hồ Chí Minh, Việt Nam">
+              <MapPinIcon class="size-6" />
+              12 District, Ho Chi Minh City
             </li>
           </ul>
         </div>
