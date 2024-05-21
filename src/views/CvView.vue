@@ -118,7 +118,7 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
                   <time
                     class="text-sm text-gray-700 before:me-1 before:content-['-'] dark:text-gray-300"
                   >
-                    2022 Oct - 2024 May
+                    2022 Oct - Present
                   </time>
                 </div>
                 <h4 class="mb-2 font-medium">Software Developer</h4>
