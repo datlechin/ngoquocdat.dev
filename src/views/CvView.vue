@@ -8,13 +8,13 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
 
 <template>
   <div class="bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100">
-    <div class="mx-auto max-w-6xl p-6">
-      <div class="mb-8 flex items-start gap-4">
+    <div class="mx-auto max-w-6xl p-4 sm:p-6">
+      <div class="mb-8 flex items-start sm:gap-4">
         <div class="relative min-w-24">
           <img
             src="/ngoquocdat.webp"
             alt="Ngo Quoc Dat"
-            class="size-24 rounded-full"
+            class="size-20 sm:size-24 rounded-full"
           />
           <span
             class="absolute end-4 bottom-0 size-4 rounded-full bg-green-500 ring-3 ring-white print:hidden"
@@ -31,7 +31,7 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
           </p>
         </div>
       </div>
-      <div class="grid grid-cols-2 gap-12 print:gap-0">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-12 print:gap-0">
         <div class="col-span-1">
           <div class="mb-6 rounded bg-gray-100 p-3 dark:bg-white/5 print:p-0">
             <ul class="space-y-2">
