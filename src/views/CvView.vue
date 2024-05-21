@@ -26,8 +26,8 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
           <h1 class="mb-2 text-3xl font-bold">Ngo Quoc Dat</h1>
           <p>
             Experienced web developer with over 3 years of PHP and JavaScript
-            language and framework experience. Passionate about new
-            technologies, and contributing to open source.
+            experience. Passionate about new technologies, and contributing to
+            open source.
           </p>
         </div>
       </div>
