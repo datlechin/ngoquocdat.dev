@@ -4,8 +4,14 @@ import GitHubIcon from './Icons/GitHubIcon.vue'
 import XIcon from './Icons/XIcon.vue'
 import FacebookIcon from './Icons/FacebookIcon.vue'
 import InstagramIcon from './Icons/InstagramIcon.vue'
+import DocumentIcon from './Icons/DocumentIcon.vue'
 
 const socials: SocialLink[] = [
+  {
+    href: '/cv',
+    title: 'My Resume',
+    icon: DocumentIcon,
+  },
   {
     href: 'https://github.com/datlechin',
     title: 'GitHub',
