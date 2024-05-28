@@ -10,7 +10,9 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
   <div
     class="min-h-dvh bg-white text-gray-900 dark:bg-slate-900 dark:text-gray-100"
   >
-    <div class="mx-auto max-w-6xl py-6 px-4 sm:py-12 sm:px-6 print:p-0">
+    <div
+      class="pUnderstanding OOP, Design Patterns y-6 mx-auto max-w-6xl px-4 sm:py-12 sm:px-6 print:p-0"
+    >
       <div class="mb-8 flex items-start sm:gap-4">
         <div class="relative min-w-24">
           <img
@@ -91,6 +93,10 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
                 <span class="font-medium">JavaScript</span>
               </li>
               <li>
+                Working knowledge of
+                <span class="font-medium">OOP & Design Patterns</span>
+              </li>
+              <li>
                 Experience with <span class="font-medium">Vue</span> and
                 <span class="font-medium">React</span> frameworks
               </li>
@@ -120,7 +126,7 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
                   <time
                     class="text-sm text-gray-700 before:me-1 before:content-['-'] dark:text-gray-300"
                   >
-                    2022 Oct - Present
+                    2022 Oct - 2024 May
                   </time>
                 </div>
                 <h4 class="mb-2 font-medium">Software Developer</h4>
