@@ -11,7 +11,7 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
     class="min-h-dvh bg-white text-gray-900 dark:bg-slate-900 dark:text-gray-100"
   >
     <div
-      class="pUnderstanding OOP, Design Patterns y-6 mx-auto max-w-6xl px-4 sm:py-12 sm:px-6 print:p-0"
+      class="pUnderstanding OOP, Design Patterns y-6 mx-auto max-w-6xl px-4 sm:py-12 sm:px-6 print:py-0"
     >
       <div class="mb-8 flex items-start sm:gap-4">
         <div class="relative min-w-24">
@@ -29,9 +29,11 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
           <div class="text-lg">Web Developer</div>
           <h1 class="mb-2 text-3xl font-bold">Ngo Quoc Dat</h1>
           <p>
-            Experienced web developer with over 3 years of PHP and JavaScript
-            experience. Passionate about new technologies, and contributing to
-            open source.
+            Experienced web developer with 3 years of experience in PHP and
+            JavaScript, particularly in Laravel and Vue.js. Possesses strong
+            self-learning and problem-solving abilities. Passionate about
+            exploring and staying updated with new technologies, and actively
+            contributing to open source projects.
           </p>
         </div>
       </div>
@@ -134,13 +136,19 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
                   class="list-inside list-disc space-y-1 text-gray-700 dark:text-gray-300"
                 >
                   <li>
+                    Primarily used Laravel, Vue.js, and jQuery for development.
+                  </li>
+                  <li>
+                    Developed and improved Botble CMS (a CMS built with
+                    Laravel).
+                  </li>
+                  <li>
                     Build projects related to Job Board, E-commerce, Real
                     Estate, etc., using the Botble CMS.
                   </li>
-                  <li>Improved and expanded the Botble core framework.</li>
                   <li>
-                    Actively participated in the development of internal company
-                    projects as well as Botble's ongoing enhancements.
+                    Participated in building the Marketplace for Botble CMS and
+                    internal company & community tools.
                   </li>
                 </ul>
               </div>
@@ -165,12 +173,11 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
               class="list-inside list-disc space-y-1 text-gray-700 dark:text-gray-300"
             >
               <li>
-                <strong>Before AE</strong>: Contributed to and developed
-                extensions for the open-source Flarum forum software built on
-                Laravel.
+                Contributed to and developed extensions for the open-source
+                Flarum forum software built on Laravel.
               </li>
               <li>
-                <strong>During AE</strong>: Developed plugins for the
+                Developed plugins for the
                 <a
                   href="https://botble.com"
                   target="_blank"
@@ -203,8 +210,8 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
                 </div>
                 <h4 class="mb-2 font-medium">Web Engineering</h4>
                 <div class="text-gray-700 dark:text-gray-300">
-                  Graduated with honors, ranking in the top 87 out of nearly
-                  2000 students in my school.
+                  Graduated with honors, excelling in courses related to the
+                  current field.
                 </div>
               </div>
             </div>
