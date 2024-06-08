@@ -92,15 +92,16 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
               <li>English reading comprehension</li>
               <li>
                 Strong grasp of <span class="font-medium">PHP</span> and
-                <span class="font-medium">JavaScript</span>
+                <span class="font-medium">Laravel</span>
               </li>
               <li>
                 Working knowledge of
                 <span class="font-medium">OOP & Design Patterns</span>
               </li>
               <li>
-                Experience with <span class="font-medium">Vue</span> and
-                <span class="font-medium">React</span> frameworks
+                Experience with JavaScript frameworks
+                <span class="font-medium">Vue.js</span> and
+                <span class="font-medium">React</span>
               </li>
               <li>
                 Proficiency in <span class="font-medium">TailwindCSS</span> and
