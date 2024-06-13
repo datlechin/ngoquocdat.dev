@@ -41,6 +41,12 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
         <div class="col-span-1">
           <div class="mb-6 rounded bg-gray-100 p-3 dark:bg-white/5 print:p-0">
             <ul class="space-y-2">
+                <li>
+                <div class="inline-flex items-center gap-2">
+                    <MapPinIcon class="size-6" />
+                    24/04/2003 ({{ new Date().getFullYear() - 2003 }} years old)
+                </div>
+                </li>
               <li>
                 <a
                   href="mailto:datlechin@gmail.com"
