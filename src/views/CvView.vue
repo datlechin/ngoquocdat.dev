@@ -4,6 +4,7 @@ import GitHubIcon from '../components/Icons/GitHubIcon.vue'
 import GlobeAltIcon from '../components/Icons/GlobeAltIcon.vue'
 import MapPinIcon from '../components/Icons/MapPinIcon.vue'
 import PhoneIcon from '../components/Icons/PhoneIcon.vue'
+import CarlendarIcon from '../components/Icons/CarlendarIcon.vue'
 </script>
 
 <template>
@@ -43,7 +44,7 @@ import PhoneIcon from '../components/Icons/PhoneIcon.vue'
             <ul class="space-y-2">
                 <li>
                 <div class="inline-flex items-center gap-2">
-                    <MapPinIcon class="size-6" />
+                    <CarlendarIcon class="size-6" />
                     24/04/2003 ({{ new Date().getFullYear() - 2003 }} years old)
                 </div>
                 </li>
