@@ -45,7 +45,7 @@ import CalendarIcon from '../components/Icons/CalendarIcon.vue'
                 <li>
                 <div class="inline-flex items-center gap-2">
                     <CalendarIcon class="size-6" />
-                    24/04/2003 ({{ new Date().getFullYear() - 2003 }} years old)
+                    Apr 24, 2003 ({{ new Date().getFullYear() - 2003 }} years old)
                 </div>
                 </li>
               <li>
