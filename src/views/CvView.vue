@@ -119,9 +119,12 @@ import CalendarIcon from '../components/Icons/CalendarIcon.vue'
                 <span class="font-medium">GitHub</span>
               </li>
               <li>
-                Familiarity with in <span class="font-medium">Inertia.js</span>,
+                Familiarity with <span class="font-medium">Inertia.js</span>,
                 <span class="font-medium">Livewire</span>, and
                 <span class="font-medium">jQuery</span>
+              </li>
+              <li>
+                Experience working with <span class="font-medium">Linux</span> environments
               </li>
             </ul>
           </div>
