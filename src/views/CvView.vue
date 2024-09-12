@@ -50,11 +50,11 @@ import CalendarIcon from '../components/Icons/CalendarIcon.vue'
                 </li>
               <li>
                 <a
-                  href="mailto:datlechin@gmail.com"
+                  href="mailto:hi@ngoquocdat.dev"
                   class="inline-flex items-center gap-2 underline-offset-2 transition-all hover:underline"
                 >
                   <AtSymbolIcon class="size-6" />
-                  datlechin@gmail.com
+                  hi@ngoquocdat.dev
                 </a>
               </li>
               <li>
