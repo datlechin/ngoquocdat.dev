@@ -8,79 +8,53 @@ import CalendarIcon from '../components/Icons/CalendarIcon.vue'
 </script>
 
 <template>
-  <div
-    class="min-h-dvh bg-white text-gray-900 dark:bg-slate-900 dark:text-gray-100"
-  >
-    <div
-      class="pUnderstanding OOP, Design Patterns y-6 mx-auto max-w-6xl px-4 sm:py-12 sm:px-6 print:py-0"
-    >
-      <div class="mb-8 flex items-start sm:gap-4">
-        <div class="relative min-w-24">
-          <img
-            src="/ngoquocdat.webp"
-            alt="Ngo Quoc Dat"
-            class="size-20 rounded-full sm:size-24"
-          />
-          <span
-            class="absolute end-4 bottom-0 size-4 rounded-full bg-green-500 ring-3 ring-white print:hidden"
-          >
-          </span>
-        </div>
+  <main class="min-h-screen bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+    <div class="mx-auto max-w-5xl px-6 py-12 print:py-6">
+      <header class="mb-12 grid grid-cols-1 gap-8 md:grid-cols-[auto,1fr]">
+        <img src="/ngoquocdat.webp" alt="Ngo Quoc Dat" class="h-32 w-32 rounded-full object-cover" />
         <div>
-          <div class="text-lg">Web Developer</div>
-          <h1 class="mb-2 text-3xl font-bold">Ngo Quoc Dat</h1>
-          <p>
-            Experienced web developer with 2 years of experience in PHP and
-            JavaScript, particularly in Laravel and Vue.js. Possesses strong
-            self-learning and problem-solving abilities. Passionate about
-            exploring and staying updated with new technologies, and actively
-            contributing to open source projects.
-          </p>
-        </div>
-      </div>
-      <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 print:gap-0">
-        <div class="col-span-1">
-          <div class="mb-6 rounded bg-gray-100 p-3 dark:bg-white/5 print:p-0">
-            <ul class="space-y-2">
-                <li>
-                <div class="inline-flex items-center gap-2">
-                    <CalendarIcon class="size-6" />
-                    Apr 24, 2003 ({{ new Date().getFullYear() - 2003 }} years old)
-                </div>
-                </li>
+          <div class="flex flex-col justify-between gap-4 md:flex-row">
+            <div>
+              <h1 class="mb-2 text-4xl font-bold">Ngo Quoc Dat</h1>
+              <div class="mb-4 text-xl text-gray-600 dark:text-gray-400">Web Developer</div>
+              <p class="mb-2 max-w-2xl text-lg">
+                Experienced web developer with 2 years of expertise in PHP and JavaScript,
+                specializing in Laravel and Vue.js. Strong self-learning capabilities and
+                problem-solving skills. Passionate about exploring new technologies and
+                contributing to open source projects.
+              </p>
+            </div>
+            <ul class="space-y-2 text-sm">
               <li>
-                <a
-                  href="mailto:hi@ngoquocdat.dev"
-                  class="inline-flex items-center gap-2 underline-offset-2 transition-all hover:underline"
-                >
+                <div class="inline-flex items-center gap-2">
+                  <CalendarIcon class="size-6" />
+                  Apr 24, 2003 ({{ new Date().getFullYear() - 2003 }} years old)
+                </div>
+              </li>
+              <li>
+                <a href="mailto:hi@ngoquocdat.dev"
+                  class="inline-flex items-center gap-2 underline-offset-2 transition-all hover:underline">
                   <AtSymbolIcon class="size-6" />
                   hi@ngoquocdat.dev
                 </a>
               </li>
               <li>
-                <a
-                  href="tel:0372124043"
-                  class="inline-flex items-center gap-2 underline-offset-2 transition-all hover:underline"
-                >
+                <a href="tel:0372124043"
+                  class="inline-flex items-center gap-2 underline-offset-2 transition-all hover:underline">
                   <PhoneIcon class="size-6" />
                   0372124043
                 </a>
               </li>
               <li>
-                <a
-                  href="https://ngoquocdat.dev"
-                  class="inline-flex items-center gap-2 underline-offset-2 transition-all hover:underline"
-                >
+                <a href="https://ngoquocdat.dev"
+                  class="inline-flex items-center gap-2 underline-offset-2 transition-all hover:underline">
                   <GlobeAltIcon class="size-6" />
                   ngoquocdat.dev
                 </a>
               </li>
               <li>
-                <a
-                  href="https://github.com/datlechin"
-                  target="_blank"
-                  class="inline-flex items-center gap-2 underline-offset-2 transition-all hover:underline"
-                >
+                <a href="https://github.com/datlechin" target="_blank"
+                  class="inline-flex items-center gap-2 underline-offset-2 transition-all hover:underline">
                   <GitHubIcon class="size-6" />
                   datlechin
                 </a>
@@ -93,142 +67,148 @@ import CalendarIcon from '../components/Icons/CalendarIcon.vue'
               </li>
             </ul>
           </div>
-          <div>
-            <h2 class="mb-3 text-xl font-semibold uppercase">Skills</h2>
-            <ul class="list-inside list-disc space-y-1.5">
-              <li>English reading comprehension</li>
-              <li>
-                Strong grasp of <span class="font-medium">PHP</span> and
-                <span class="font-medium">Laravel</span>
-              </li>
-              <li>
-                Working knowledge of
-                <span class="font-medium">OOP & Design Patterns</span>
-              </li>
-              <li>
-                Experience with JavaScript frameworks
-                <span class="font-medium">Vue.js</span> and
-                <span class="font-medium">React</span>
-              </li>
-              <li>
-                Proficiency in <span class="font-medium">TailwindCSS</span> and
-                <span class="font-medium">Bootstrap</span>
-              </li>
-              <li>
-                Proficient in using <span class="font-medium">Git</span> and
-                <span class="font-medium">GitHub</span>
-              </li>
-              <li>
-                Familiarity with <span class="font-medium">Inertia.js</span>,
-                <span class="font-medium">Livewire</span>, and
-                <span class="font-medium">jQuery</span>
-              </li>
-              <li>
-                Experience working with <span class="font-medium">Linux</span> environments
-              </li>
-            </ul>
-          </div>
         </div>
-        <div class="grid-col col-span-1 grid gap-8">
-          <div>
-            <h2 class="mb-3 text-xl font-semibold uppercase">Experience</h2>
-            <div class="grid-col grid gap-4">
+      </header>
+      <div class="grid gap-12 md:grid-cols-2">
+        <div class="space-y-10">
+          <section>
+            <h2 class="mb-6 text-2xl font-bold">Experience</h2>
+            <div class="space-y-6">
               <div>
-                <div class="flex items-center gap-1">
-                  <h3 class="mb-0.5 text-lg font-semibold">Archi Elite</h3>
-                  <time
-                    class="text-sm text-gray-700 before:me-1 before:content-['-'] dark:text-gray-300"
-                  >
-                    2022 Oct - 2024 May
-                  </time>
+                <div class="mb-2 flex flex-wrap items-baseline gap-2">
+                  <h3 class="text-xl font-semibold">SePay</h3>
+                  <span class="text-sm text-gray-600 dark:text-gray-400">2024 Aug - Present</span>
                 </div>
-                <h4 class="mb-2 font-medium">Software Developer</h4>
-                <ul
-                  class="list-inside list-disc space-y-1 text-gray-700 dark:text-gray-300"
-                >
-                  <li>
-                    Primarily used Laravel, Vue.js, and jQuery for development.
+                <h4 class="mb-3 text-lg text-gray-600 dark:text-gray-400">PHP Developer</h4>
+                <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+                  <li class="flex items-start gap-2">
+                    <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                    <span>Developing core products for SePay, Vietnam's leading fintech payment solution provider</span>
                   </li>
-                  <li>
-                    Developed and improved Botble CMS (a CMS built with
-                    Laravel).
+                  <li class="flex items-start gap-2">
+                    <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                    <span>Implementing direct banking integrations with major Vietnamese banks through Open Banking
+                      APIs</span>
                   </li>
-                  <li>
-                    Build projects related to Job Board, E-commerce, Real
-                    Estate, etc., using the Botble CMS.
+                </ul>
+              </div>
+              <div>
+                <div class="mb-2 flex flex-wrap items-baseline gap-2">
+                  <h3 class="text-xl font-semibold">Archi Elite</h3>
+                  <span class="text-sm text-gray-600 dark:text-gray-400">2022 Oct - 2024 May</span>
+                </div>
+                <h4 class="mb-3 text-lg text-gray-600 dark:text-gray-400">Software Developer</h4>
+                <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+                  <li class="flex items-start gap-2">
+                    <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                    <span>Primarily used Laravel, Vue.js, and jQuery for development</span>
                   </li>
-                  <li>
-                    Participated in building the Marketplace for Botble CMS and
-                    internal company & community tools.
+                  <li class="flex items-start gap-2">
+                    <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                    <span>Developed and improved Botble CMS (a CMS built with Laravel)</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                    <span>Built projects related to Job Board, E-commerce, Real Estate using Botble CMS</span>
+                  </li>
+                  <li class="flex items-start gap-2">
+                    <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                    <span>Participated in building the Marketplace for Botble CMS and internal company & community
+                      tools</span>
                   </li>
                 </ul>
               </div>
             </div>
-          </div>
-          <div>
-            <h2 class="mb-3 text-xl font-semibold uppercase">
-              Projects & Activities
-            </h2>
-            <p class="mb-2">
-              I focused on learning the technologies I used and contributing to
-              open-source projects on
-              <a
-                href="https://github.com/datlechin?tab=repositories"
-                target="_blank"
-                class="underline underline-offset-2 transition-all hover:text-gray-950 dark:hover:text-gray-50"
-              >
-                GitHub</a
-              >.
-            </p>
-            <ul
-              class="list-inside list-disc space-y-1 text-gray-700 dark:text-gray-300"
-            >
-              <li>
-                Contributed to and developed extensions for the open-source
-                Flarum forum software built on Laravel.
+          </section>
+        </div>
+        <div class="space-y-10">
+          <section>
+            <h2 class="mb-4 text-2xl font-bold">Skills</h2>
+            <ul class="space-y-2">
+              <li class="flex items-start gap-2">
+                <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                <span>English reading comprehension</span>
               </li>
-              <li>
-                Developed plugins for the
-                <a
-                  href="https://botble.com"
-                  target="_blank"
-                  class="underline underline-offset-2 transition-all hover:text-gray-950 dark:hover:text-gray-50"
-                >
-                  Botble</a
-                >
-                ecosystem and founded
-                <a
-                  href="https://friendsofbotble.com"
-                  target="_blank"
-                  class="underline underline-offset-2 transition-all hover:text-gray-950 dark:hover:text-gray-50"
-                >
-                  Friends of Botble</a
-                >.
+              <li class="flex items-start gap-2">
+                <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                <span>Strong grasp of <strong>PHP</strong>, <strong>Laravel</strong>, and <strong>CodeIgniter
+                    4</strong></span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                <span>Working knowledge of <strong>OOP & Design Patterns</strong></span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                <span>Experience with <strong>Vue.js</strong> and <strong>React</strong></span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                <span>Proficiency in <strong>TailwindCSS</strong> and <strong>Bootstrap</strong></span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                <span>Proficient in using <strong>Git</strong> and <strong>GitHub</strong></span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                <span>Experience with <strong>Inertia.js</strong>, <strong>Livewire</strong>, and
+                  <strong>jQuery</strong></span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                <span>Experience working with <strong>Linux</strong> environments</span>
               </li>
             </ul>
-          </div>
-          <div>
-            <h2 class="mb-4 text-xl font-semibold uppercase">Education</h2>
-            <div class="grid-col grid gap-4">
-              <div>
-                <div class="flex items-center gap-1">
-                  <h3 class="mb-0.5 text-lg font-semibold">FPT Polytechnic</h3>
-                  <time
-                    class="text-sm text-gray-700 before:me-1 before:content-['-'] dark:text-gray-300"
-                  >
-                    2021 Aug - 2024 Feb
-                  </time>
-                </div>
-                <h4 class="mb-2 font-medium">Web Engineering</h4>
-                <div class="text-gray-700 dark:text-gray-300">
-                  Graduated with honors, excelling in courses related to the
-                  current field.
-                </div>
+          </section>
+          <section>
+            <h2 class="mb-6 text-2xl font-bold">Projects & Activities</h2>
+            <p class="mb-4">
+              I focused on learning the technologies I used and contributing to open-source projects on
+              <a href="https://github.com/datlechin?tab=repositories" target="_blank"
+                class="text-blue-600 underline decoration-blue-600 decoration-2 underline-offset-2 transition-colors hover:text-blue-700 dark:text-blue-400 dark:decoration-blue-400 dark:hover:text-blue-300">
+                GitHub
+              </a>.
+            </p>
+            <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+              <li class="flex items-start gap-2">
+                <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                <span>Contributed to and developed extensions for the open-source Flarum forum software built on
+                  Laravel</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="mt-2 h-1.5 w-1.5 rounded-full bg-gray-600 dark:bg-gray-400"></span>
+                <span>
+                  Developed plugins for the
+                  <a href="https://botble.com" target="_blank"
+                    class="text-blue-600 underline decoration-blue-600 decoration-2 underline-offset-2 transition-colors hover:text-blue-700 dark:text-blue-400 dark:decoration-blue-400 dark:hover:text-blue-300">
+                    Botble
+                  </a>
+                  ecosystem and founded
+                  <a href="https://friendsofbotble.com" target="_blank"
+                    class="text-blue-600 underline decoration-blue-600 decoration-2 underline-offset-2 transition-colors hover:text-blue-700 dark:text-blue-400 dark:decoration-blue-400 dark:hover:text-blue-300">
+                    Friends of Botble
+                  </a>.
+                </span>
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="mb-6 text-2xl font-bold">Education</h2>
+            <div>
+              <div class="mb-2 flex flex-wrap items-baseline gap-2">
+                <h3 class="text-xl font-semibold">FPT Polytechnic</h3>
+                <span class="text-sm text-gray-600 dark:text-gray-400">2021 Aug - 2024 May</span>
               </div>
+              <h4 class="mb-3 text-lg text-gray-600 dark:text-gray-400">Web Engineering</h4>
+              <p class="text-gray-700 dark:text-gray-300">
+                Graduated with honors, excelling in courses related to the current field.
+              </p>
             </div>
-          </div>
+          </section>
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </template>
