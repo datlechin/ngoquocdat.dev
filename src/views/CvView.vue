@@ -18,7 +18,7 @@ import CalendarIcon from '../components/Icons/CalendarIcon.vue'
               <h1 class="mb-2 text-4xl font-bold">Ngo Quoc Dat</h1>
               <div class="mb-4 text-xl text-gray-600 dark:text-gray-400">Web Developer</div>
               <p class="mb-2 max-w-2xl text-lg">
-                Experienced web developer with 2 years of expertise in PHP and JavaScript,
+                Experienced web developer with 3 years of expertise in PHP and JavaScript,
                 specializing in Laravel and Vue.js. Strong self-learning capabilities and
                 problem-solving skills. Passionate about exploring new technologies and
                 contributing to open source projects.
