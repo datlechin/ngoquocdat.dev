@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.0.0-alpha.16",
+    "@tailwindcss/vite": "^4.0.9",
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.1.0",
     "@vitejs/plugin-vue": "^5.2.1",
@@ -17,7 +17,7 @@
     "prettier-plugin-tailwindcss": "^0.5.14",
     "tailwindcss": "next",
     "typescript": "^5.7.3",
-    "vite": "^5.4.14",
+    "vite": "^6.2.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0",
     "vue-tsc": "^2.2.0"
