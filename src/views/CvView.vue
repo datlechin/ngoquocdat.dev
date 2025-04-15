@@ -5,6 +5,7 @@ import GlobeAltIcon from '../components/Icons/GlobeAltIcon.vue'
 import MapPinIcon from '../components/Icons/MapPinIcon.vue'
 import PhoneIcon from '../components/Icons/PhoneIcon.vue'
 import CalendarIcon from '../components/Icons/CalendarIcon.vue'
+import ArrowTopRightOnSquare from '../components/Icons/ArrowTopRightOnSquare.vue'
 </script>
 
 <template>
@@ -113,10 +114,10 @@ import CalendarIcon from '../components/Icons/CalendarIcon.vue'
 
         <div class="space-y-10">
           <section>
-            <h2 class="mb-6 text-xl font-bold">Technical Expertise</h2>
+            <h2 class="mb-6 text-xl font-bold">Technical Skills</h2>
             <div class="space-y-6">
               <div>
-                <h3 class="mb-2 text-base font-medium">Backend Development</h3>
+                <h3 class="mb-2 text-base font-medium">Development & Tools</h3>
                 <div class="flex flex-wrap gap-2">
                   <span class="text-sm text-gray-600 dark:text-gray-400">PHP 8</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
@@ -124,30 +125,14 @@ import CalendarIcon from '../components/Icons/CalendarIcon.vue'
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">CodeIgniter 4</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">MySQL</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">Redis</span>
-                </div>
-              </div>
-              <div>
-                <h3 class="mb-2 text-base font-medium">Frontend Development</h3>
-                <div class="flex flex-wrap gap-2">
                   <span class="text-sm text-gray-600 dark:text-gray-400">Vue.js</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">React</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">TailwindCSS</span>
+                  <span class="text-sm text-gray-600 dark:text-gray-400">MySQL</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">Inertia.js</span>
+                  <span class="text-sm text-gray-600 dark:text-gray-400">Redis</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">jQuery</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">Bootstrap</span>
-                </div>
-              </div>
-              <div>
-                <h3 class="mb-2 text-base font-medium">DevOps & Tools</h3>
-                <div class="flex flex-wrap gap-2">
                   <span class="text-sm text-gray-600 dark:text-gray-400">Git</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">Docker</span>
@@ -158,15 +143,17 @@ import CalendarIcon from '../components/Icons/CalendarIcon.vue'
                 </div>
               </div>
               <div>
-                <h3 class="mb-2 text-base font-medium">Testing & Quality</h3>
+                <h3 class="mb-2 text-base font-medium">Domain Expertise</h3>
                 <div class="flex flex-wrap gap-2">
-                  <span class="text-sm text-gray-600 dark:text-gray-400">PHPUnit</span>
+                  <span class="text-sm text-gray-600 dark:text-gray-400">Payment Systems</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">Pest</span>
+                  <span class="text-sm text-gray-600 dark:text-gray-400">Banking Integration</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">Feature Tests</span>
+                  <span class="text-sm text-gray-600 dark:text-gray-400">Unit Testing</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">Unit Tests</span>
+                  <span class="text-sm text-gray-600 dark:text-gray-400">API Development</span>
+                  <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
+                  <span class="text-sm text-gray-600 dark:text-gray-400">System Architecture</span>
                 </div>
               </div>
             </div>
@@ -178,26 +165,14 @@ import CalendarIcon from '../components/Icons/CalendarIcon.vue'
               <div>
                 <h3 class="mb-2 text-lg font-medium">Botble Marketplace</h3>
                 <p class="mb-2 text-sm text-gray-600 dark:text-gray-400">
-                  Developed and maintained Botble CMS marketplace, a platform for creating and managing online stores.
+                  Developed and maintained <a href="https://marketplace.botble.com" target="_blank" class="hover:underline inline-flex items-center gap-1"><ArrowTopRightOnSquare class="size-3 inline" /> Botble Marketplace</a>, a platform for creating and managing online stores.
                 </p>
-                <div class="flex flex-wrap gap-2">
-                  <span class="text-sm text-gray-600 dark:text-gray-400">Laravel</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">Vue.js</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">MySQL</span>
-                </div>
               </div>
               <div>
                 <h3 class="mb-2 text-lg font-medium">Friends of Botble</h3>
-                <p class="mb-2 text-sm text-gray-600 dark:text-gray-400">Founded and developed community platform for Botble developers, featuring resource sharing and collaboration tools.</p>
-                <div class="flex flex-wrap gap-2">
-                  <span class="text-sm text-gray-600 dark:text-gray-400">Laravel</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">Inertia.js</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">Vue.js</span>
-                </div>
+                <p class="mb-2 text-sm text-gray-600 dark:text-gray-400">
+                  Founded and developed <a href="https://friendsofbotble.com" target="_blank" class="hover:underline inline-flex items-center gap-1"><ArrowTopRightOnSquare class="size-3 inline" /> Friends of Botble</a>, a community platform for Botble developers, featuring resource sharing and collaboration tools.
+                </p>
               </div>
             </div>
           </section>
@@ -230,12 +205,6 @@ import CalendarIcon from '../components/Icons/CalendarIcon.vue'
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">Flarum</span>
                 </div>
-              </div>
-              <div>
-                <h3 class="mb-2 text-lg font-medium">Community Leadership</h3>
-                <p class="mb-2 text-sm text-gray-600 dark:text-gray-400">
-                  Founded Friends of Botble - an open source community for Botble CMS developers. Active member of FPOLY-HCM and Botble organizations.
-                </p>
               </div>
             </div>
           </section>
