@@ -37,9 +37,9 @@ import SocialList from '../components/SocialList.vue'
 
       <div class="mb-32 text-center">
         <h2 class="mb-6 text-3xl font-bold sm:mb-8 sm:text-4xl">
-          I'm a web
+          I'm a
           <span class="text-blue-300 underline underline-offset-8">
-            developer
+            Software Developer
           </span>
         </h2>
 
