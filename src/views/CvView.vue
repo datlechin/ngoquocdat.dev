@@ -42,9 +42,9 @@ import ArrowTopRightOnSquare from '../components/Icons/ArrowTopRightOnSquare.vue
                 </a>
               </li>
               <li>
-                <a href="https://ngoquocdat.dev" class="inline-flex items-center gap-2">
+                <a href="https://nqd.vn" class="inline-flex items-center gap-2">
                   <GlobeAltIcon class="size-4" />
-                  ngoquocdat.dev
+                  nqd.vn
                 </a>
               </li>
               <li>
@@ -56,7 +56,7 @@ import ArrowTopRightOnSquare from '../components/Icons/ArrowTopRightOnSquare.vue
               <li>
                 <div class="inline-flex items-center gap-2">
                   <MapPinIcon class="size-4" />
-                  12 District, HCMC
+                  Ho Chi Minh City, Vietnam
                 </div>
               </li>
             </ul>
