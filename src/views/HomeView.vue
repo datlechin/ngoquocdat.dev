@@ -1,11 +1,8 @@
 <script setup lang="ts">
-import { SpeedInsights } from '@vercel/speed-insights/vue'
 import SocialList from '../components/SocialList.vue'
 </script>
 
 <template>
-  <speed-insights />
-
   <main
     class="min-h-dvh bg-slate-900 bg-[radial-gradient(ellipse_80%_60%_at_50%_-15%,rgba(120,119,198,0.3),rgba(255,255,255,0))] text-gray-50"
   >
