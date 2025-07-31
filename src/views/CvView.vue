@@ -76,7 +76,7 @@ import ArrowTopRightOnSquare from '../components/Icons/ArrowTopRightOnSquare.vue
                 </div>
                 <h4 class="mb-3 text-base text-gray-600 dark:text-gray-400">PHP Developer</h4>
                 <ul class="space-y-2 text-sm text-gray-600 dark:text-gray-400">
-                  <li>Developing and maintaining payment systems using CodeIgniter 4</li>
+                  <li>Developing and maintaining payment systems using CI4</li>
                   <li>Designing and implementing API integrations with major Vietnamese banks</li>
                   <li>Building deeplink solutions for banking applications and optimizing user experience</li>
                   <li>Developing SDKs and plugins for third-party payment services</li>
@@ -123,7 +123,7 @@ import ArrowTopRightOnSquare from '../components/Icons/ArrowTopRightOnSquare.vue
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">Laravel</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
-                  <span class="text-sm text-gray-600 dark:text-gray-400">CodeIgniter 4</span>
+                  <span class="text-sm text-gray-600 dark:text-gray-400">CI4</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">Vue.js</span>
                   <span class="text-sm text-gray-600 dark:text-gray-400">•</span>
